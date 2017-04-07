@@ -1,0 +1,37 @@
+{
+  "name": "semaphorejs",
+  "version": "1.0.0",
+  "description": "A functional-style Semaphore for managing concurrent access to a resource with async functions and Promises.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bignerdranch/semaphorejs.git"
+  },
+  "keywords": [
+    "semaphore",
+    "async",
+    "await",
+    "promise",
+    "mutex",
+    "concurrency",
+    "parallelism",
+    "task",
+    "multithreading"
+  ],
+  "author": "Jonathan Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bignerdranch/semaphorejs/issues"
+  },
+  "homepage": "https://github.com/bignerdranch/semaphorejs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1"
+  }
+}
